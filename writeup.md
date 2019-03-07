@@ -126,11 +126,11 @@ Here are 5 German traffic signs that I found on the web:
 
 ![alt text][image3] 
 
-1st image might be difficult to classify because the image is dark and inclined 
-2nd image might be difficult to classify because the image is dark and also difficult for humen to identify, meanwhile, the resolution is very low
-3rd image might be difficult to classify because the image is partially covered by other object
-4th image might be difficult to classify because the image contains 2 traffic signs
-5th image should be easy to classify because the image is very clear 
+* 1st image might be difficult to classify because the image is dark and inclined 
+* 2nd image might be difficult to classify because the image is dark and also difficult for humen to identify, meanwhile, the resolution is very low
+* 3rd image might be difficult to classify because the image is partially covered by other object
+* 4th image might be difficult to classify because the image contains 2 traffic signs
+* 5th image should be easy to classify because the image is very clear 
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
@@ -220,5 +220,5 @@ For 5th image, the model is 100% sure that this is a "Road work"  (probability o
 
 ![alt text][image10] 
 
-In the visualization of the 1st convolutional layer, different feature maps look for the triangle, e.g. FeatureMap 1, 2, 4, 5, 6, 7, 8, 9, 19
-In addition, it also looks for the animal sign inside the triangle, e.g. FeatureMap 1, 2, 4, 6, 7, 8, 9
+* In the visualization of the 1st convolutional layer, the feature maps identified the triangle, e.g. FeatureMap 1, 2, 4, 5, 6, 7, 8, 9, 19
+* In addition, it also looks for the animal sign inside the triangle, e.g. FeatureMap 1, 2, 4, 6, 7, 8, 9
