@@ -88,7 +88,7 @@ My final model consisted of the following layers:
 | RELU					|												|
 | Fully connected		| outputs 84 									|
 | RELU					|												|
-| Fully connected		| outputs 10 									|
+| Fully connected		| outputs 43 									|
 |						|												|
  
 
@@ -111,12 +111,12 @@ My final model results were:
 
 
 If a well known architecture was chosen:
-* I chose the LeNet solution and adjusted the parameters 
-I ran though different combination of parameters, e.g. 
+* I chose the LeNet solution and adjusted the parameters because it was a basic and very good nenural network explained very well in the lecture.
+I ran though different combination of parameters in order to improve the accuracy, e.g. 
 * keep_prob between 0.5 and 1.0, Convolution 5x5x1x12
 * EPOCHS between 20 and 50
 * increase 1st Convolution layer from 5x5x1x6 to 5x5x1x12
-* increase 2nd Convolution layer from 10x10x16 to 10x10x32 
+* increase 2nd Convolution layer from 5x5x6x16 to 5x5x12x32
 
 ### Test a Model on New Images
 
